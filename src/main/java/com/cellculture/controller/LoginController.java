@@ -14,6 +14,10 @@ public class LoginController {
 
     @FXML private void handleLogin()
     {
-        //kjnkjjo
+        String username = usernameField.getText();
+        String password = passwordField.getText();
+
+        System.out.println("Username: " + username);
+        System.out.println("Password: " + password);
     }
 }
