@@ -66,6 +66,47 @@ public class CellPopulation {
     {
         return dateStarted;
     }
+
+    //setter methods
+    public void setCellID(int x)
+    {
+        experimentID = x;
+    }
+
+    public void setUserID(int x)
+    {
+        userID = x;
+    }
+
+    public void setName(String x)
+    {
+        experimentName = x;
+    }
+
+    public void setMedium(String x)
+    {
+        medium = x;
+    }
+
+    public void setGrowthFactor(String x)
+    {
+        growthFactor = x;
+    }
+
+    public void setCurrentPassage(int x)
+    {
+        currentPassage = x;
+    }
+
+    public void setMaxPassage(int x)
+    {
+        maxPassage = x;
+    }
+
+    public void setDateStarted(LocalDate x)
+    {
+        dateStarted = x;
+    }
 }
 
 
